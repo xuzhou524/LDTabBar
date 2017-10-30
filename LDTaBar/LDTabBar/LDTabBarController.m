@@ -39,6 +39,7 @@
     Class class = NSClassFromString(className);
     UIViewController * controller  = [class new];
     
+    //设置tabBartitle
     //controller.title = title;
     controller.tabBarItem.image = [UIImage imageNamed:normalImage];
     
